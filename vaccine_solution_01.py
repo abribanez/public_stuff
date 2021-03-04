@@ -3,7 +3,7 @@
 # 3. Change ~/maya/script/ folder permissions to read only using os.chmod ? 
 # 4. Create scriptJob:
 
-def restore_folder_permissions():
+def remove_unwanted_script_nodes():
    # Delete unwanted scriptNodes
    # Restore ~/maya/script/ folder permissions using os.chmod?
    # remove the script node -> cmds.scriptJob(kill=temp_script_job)
